@@ -559,7 +559,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background-color: rgba(46, 47, 66, 0.4) 
+background-color: rgba(46, 47, 66, 0.4);
 
 opacity: 0;
 visibility: hidden;
@@ -606,7 +606,7 @@ background-color: #e7e9fc;
 width: 24px;
 height: 24px;
  
-border: 1px solid rgba(0, 0, 0, 0.1)
+border: 1px solid rgba(0, 0, 0, 0.1);
 fill: #2E2F42;
 align-items: center;
 justify-content: center;
@@ -616,7 +616,7 @@ padding: 0;
 }
 
 .cross-button:hover,
-.cross-button:focus
+.cross-button:focus,
 .cross-button:active
 {
   background-color: #404BBF;
@@ -686,8 +686,8 @@ margin-top: 0;
 
 
 
-.modal-input:hover + .modal-svg
-.modal-input:focus + .modal-svg
+.modal-input:hover + .modal-svg,
+.modal-input:focus + .modal-svg,
 .modal-input:active + .modal-svg {
   fill: #4D5AE5;
 }
@@ -696,7 +696,9 @@ margin-top: 0;
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 24px;
+}
 
 
 .modal-text-area{border: 1px solid #8E8F99;
@@ -725,7 +727,7 @@ margin-top: 0;
 
 
 
-.checkbox{margin-bottom: 24px; }
+.checkbox{margin-bottom: 16px; }
 
 .checkbox-form{color: #4d5ae5;
 text-decoration: underline;}
