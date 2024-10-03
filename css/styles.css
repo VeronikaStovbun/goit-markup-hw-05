@@ -685,11 +685,11 @@ margin-top: 0;
   outline: transparent; }
 
 .modal-input:hover,
-.modal-input:focus,
-.modal-input:active {background-color: #4D5AE5;}
+.modal-input:focus-within,
+.modal-input:active {border-color: #4D5AE5;}
 
 .modal-input:hover + .modal-svg,
-.modal-input:focus + .modal-svg,
+.modal-input:focus-within + .modal-svg,
 .modal-input:active + .modal-svg {
   fill: #4D5AE5;
 }
